@@ -1,0 +1,21 @@
+div{
+    width: 800px; /* largeur */
+    margin: 0 auto; /* marges */
+}
+
+div img{
+    width: 200px;
+    height: 200px;
+    margin: 20px; /* marges */
+    border: 5px solid #eee999; /* bordure */
+    box-shadow: 6px 4px 2px #72806f; /* ombre */
+    transition: 2s;
+}
+
+div img:hover{
+    transform: rotate(-7deg); /* rotation de 7 degrés */
+}
+
+div img.rotation360:hover{
+    transform: rotateY(180deg);
+}

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'brotherinaregular';
+    src: url('Police/brotherina-webfont.woff2') format('woff2'),
+         url('Police/brotherina-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'brotherinaregular';
+    font-size: 200%;
+}

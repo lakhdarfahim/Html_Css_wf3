@@ -1,0 +1,11 @@
+body{
+    background: #000000 url('Personnages_SSBM.jpg') no-repeat;
+    background-size: cover;
+}
+
+.contenu{
+    background: linear-gradient(#cdada9, #64754b);
+    width: 800px;
+    height: 500px;
+    margin: auto;
+}
