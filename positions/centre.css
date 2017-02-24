@@ -1,0 +1,15 @@
+#conteneur{
+    width: 960px;
+    background: #9a54bc;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.a, .b{
+    height: 150px;
+    width: 450px;
+    border: 2px solid;
+    margin: 0 10px; /* espace horizontal entre les blocs */
+    display: inline-block; /* inline-block permet de rendre un block inline et le vertical-align est donc possible */
+    vertical-align: middle;
+}

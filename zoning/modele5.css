@@ -1,0 +1,76 @@
+#conteneur{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    background: green;
+    height: 100px;
+}
+
+nav{
+    background: purple;
+    height: 30px;
+}
+
+p{
+    margin: 0;
+}
+
+.A{
+    background: blue;
+    width: 200px;
+    height: 175px;
+    float: left;
+}
+
+.B{
+    background: green;
+    width: 600px;
+    height: 175px;
+    float: left;
+}
+
+.C{
+    background: orange;
+    width: 200px;
+    height: 175px;
+    float: left;
+}
+
+.D{
+    background: pink;
+    width: 1000px;
+    height: 175px;
+    float: left;
+}
+
+.E{
+    background: blue;
+    width: 200px;
+    height: 175px;
+    float: left;
+}
+
+.F{
+    background: green;
+    width: 600px;
+    height: 175px;
+    float: left;
+}
+
+.G{
+    background: orange;
+    width: 200px;
+    height: 175px;
+    float: left;
+}
+
+footer{
+    background: red;
+    height: 100px;
+}
+
+.clear{
+    clear: both;
+}
