@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulaire</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="formulaire.css" />
+    <head>
+    <body>
+        <form method="post" enctype="multipart/form-data">
+            <label for="pseudo">Pseudo</label>
+            <input type="text" id="pseudo" name="pseudo" placeholder="Pseudo" required /><br /><br />
+
+            <label for="mdp">Mot de passe</label>
+            <input type="password" id="mdp" name="mdp" /><br /><br />
+
+            <label for="prenom">Prénom</label>
+            <input type="text" id="prenom" name="prenom" /><br /><br />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" /><br /><br />
+
+            <label for="avatar">Photo</label>
+            <input type="file" id="avatar" name="avatar" /><br /><br />
+
+            <label for="pays">Pays</label>
+            <select id="pays">
+                <optgroup label="Europe">
+                    <option value="fr">France</option>
+                    <option value="it">Italie</option>
+                    <option value="es">Espagne</option>
+                </optgroup>
+
+                <optgroup label="Afrique">
+                    <option value="alg" selected>Algérie</option>
+                    <option value="ma">Mali</option>
+                    <option value="sng">Senegal</option>
+                </optgroup>
+            </select><br /><br />
+            <label for="choix">Quel est votre fruit préférés ?</label>
+            <p>
+            <input type="checkbox" name="choix"> Orange
+            <input type="checkbox" name="choix" checked> Fraise
+            <input type="checkbox" name="choix"> Poire
+            </p>
+        </form>
+    </body>
+</html>
