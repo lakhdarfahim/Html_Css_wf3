@@ -42,6 +42,46 @@
             <input type="checkbox" name="choix" checked> Fraise
             <input type="checkbox" name="choix"> Poire
             </p>
+
+            <label for="ville">Ville</label>
+            <input type="text" id="ville" name="ville" list="france" placeholder="Entrez le nom de la ville" />
+            <datalist id="france">
+                <option>Paris</option>
+                <option>Marseille</option>
+                <option>Lyon</option>
+            </datalist><br /><br />
+
+            <label for="cp">Code Postal</label>
+            <input type="text" id="cp" name="cp" maxlength="5" pattern="[0-9]{5}" title="5 chiffres requis entre 0 et 9" /><br /><br />
+
+            <label for="adresse">Adresse</label>
+            <textarea id="adresse" name="adresse" rows="4" cols="21" placeholder="Entrez votre Adresse"></textarea><br /><br />
+
+            <label for="datedenaissance">Date de Naissance</label>
+            <input type="date" id="datedenaissance" name="datedenaissance" /><br /><br />
+
+            <label for="jauge">Jauge</label>
+            <input type="range" min="25" max="50" value="26" id="jauge" /><br /><br />
+
+            <label for="telephone">Téléphone</label>
+            <input type="tel" pattern="[0-9]{10}" id="telephone" name="telephone" maxlength="10" /><br /><br />
+
+            <label for="recherche">Recherche</label>
+            <input type="text" pattern="[a-zA-Z0-9.-_]+" title="caractères autorisés : a-zA-Z0-9.-_" id="recherche" name="recherche" /><br /><br />
+
+            <label for="couleur">Couleur</label>
+            <input type="color" id="couleur" name="couleur" /><br /><br />
+
+            <label for="avatar">Avatar</label>
+            <input type="file" id="avatar" name="avatar" multiple /><br /><br />
+
+            <input type="hidden" id="cache" name="cache" /><br /><br />
+
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" value="test" disabled /><br /><br />
+
+            <input type="submit" name="inscription" value="S'inscrire" />
+            <input type="reset" name="efface" value="Recommencer" />
         </form>
     </body>
 </html>
