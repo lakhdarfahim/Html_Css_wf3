@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 100px;
+    background: yellow;
+    margin-bottom: 15px;
+}
+
+.conteneur1{
+    width: 1000px;
+    height: 90px;
+    background: #f0f0f0;
+    margin: 0 auto;
+}
+
+.conteneur1_1{
+    width: 700px;
+    height: 60px;
+    background: red;
+    float: left;
+}
+
+.conteneur1_2{
+    width: 300px;
+    height: 60px;
+    background: orange;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+nav{
+    width: 520px;
+    height: 30px;
+    background: pink;
+    margin: 0px 0 0 250px;
+}
+
+#conteneur2{
+    width: 1000px;
+    height: 720px;
+    background: black;
+    margin: 0 auto;
+}
+
+.conteneur2_1{
+    width: 600px;
+    height: 720px;
+    float: left;
+    background: green;
+}
+
+.deuxieme{
+    width: 600px;
+    height: 100px;
+    margin-top: 10px;
+    background: grey;
+}
+
+.premier{
+    width: 600px;
+    height: 150px;
+    background: grey;
+
+}
+
+
+
+.conteneur2_1_haut{
+    width: 600px;
+    height: 140px;
+    margin-top: 10px;
+    background: violet;
+    float: left;
+}
+
+.conteneur2_1_milieu{
+    width: 600px;
+    height: 140px;
+    margin-top: 310px;
+    background: violet;
+}
+
+.conteneur2_1_bas{
+    width: 600px;
+    height: 140px;
+    margin-top: -290px;
+    background: violet;
+}
+
+.conteneur2_2{
+    width: 400px;
+    height: 720px;
+    background: blue;
+    float: left;
+}
+
+.international{
+    width: 400px;
+    height: 90px;
+    background: black;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.carte{
+    width: 400px;
+    height: 210px;
+    background: black;
+    margin-bottom: 10px;
+    float: right;
+}
+
+.contactez{
+    width: 400px;
+    height: 100px;
+    background: black;
+    float: right;
+}
+
+footer{
+    height: 100px;
+    background: yellow;
+    margin-top: 15px;
+}
