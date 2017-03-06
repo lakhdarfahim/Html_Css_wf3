@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="exercice3.css" />
+        <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+        <title>Exercice3</title>
+    </head>
+    <body>
+        <header>
+            <div class="conteneur1">
+                <div class="conteneur1_1">
+                    <h2 id="nom">MonNom MonPrenom</h2>
+                    <h3><span>C</span>ommunication / <span>M</span>arketing / <span>D</span>igital</h3>
+                </div>
+
+                <div class="conteneur1_2">
+                    <a href="">Télécharger mon CV</a>
+                    <a href="">Partagez</a>
+                </div>
+                <div class="clear"></div>
+                <nav>
+                    <a href="">Accueil</a>
+                    <a href="">Mon CV</a>
+                    <a href="">Mes Projets</a>
+                    <a href="">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <div id="conteneur2">
+            <div class="conteneur2_1">
+                <h2 id="contact">Contact</h2>
+                <form method="post" enctype="multipart/form-data">
+                    <br/><br />
+                    <label for="nom">Expediteur</label>
+                    <br />
+                    <input type="text" id="expediteur" name="expediteur" placeholder=" votreadresse@site.com" required /><br /><br />
+
+                    <label for="nom">Sujet</label>
+                    <br />
+                    <input type="text" id="sujet" name="sujet" placeholder=" votre sujet..." required /><br /><br />
+
+                    <label for="description">Message</label><br />
+                    <textarea id="description" name="description" placeholder=" message..." rows="4" cols="21"></textarea><br /><br />
+
+                    <input type="submit" name="inscription" id="bouton" value="envoi" />
+                </form>
+            </div>
+
+            <div class="conteneur2_2">
+                <img id="email" src="email.jpg" title="image4" alt="image4"/><br />
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d226.85127278470839!2d2.3798612701488193!3d48.95481841363889!2m2!1f237.1700152921738!2f45!3m2!1i1024!2i768!4f20!3m3!1m2!1s0x47e66be1d5a0def1%3A0x61c8e675f4d685c0!2s25+Rue+Paul+Verlaine%2C+93240+Stains!5e1!3m2!1sfr!2sfr!4v1488283193559" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <br />
+                <small>
+                <a href="https://www.google.fr/maps/place/25+Rue+Paul+Verlaine,+93240+Stains/@48.9548184,2.3798613,227a,20y,237.17h,45t/data=!3m1!1e3!4m5!3m4!1s0x47e66be1d5a0def1:0x61c8e675f4d685c0!8m2!3d48.9536897!4d2.3751973">Agrandire le plan</a>
+                </small>
+
+
+            </div>
+        </div>
+
+        <footer>
+            <div class="conteneur3">
+                <a href="">Informations -</a>
+                <a href="">Mentions légales -</a>
+                <a href="">Contact</a>
+                <div class="clear"></div>
+                <p>@2013 Conception et réalisation par Nom Prenom. Tout droits réservés.</p>
+            </div>
+        </footer>
+    </body>
+</html>

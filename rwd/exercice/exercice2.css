@@ -1,0 +1,80 @@
+#conteneur{
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+    max-width: 1000px;
+    font-size: 1.2vw;
+}
+
+header{
+    background: green;
+    height: 10vh;
+}
+
+nav{
+    background: purple;
+    height: 3vh;
+}
+
+p{
+    margin: 0;
+}
+
+.A{
+    background: blue;
+    width: 25%;
+    height: 17.5vh;
+    float: left;
+}
+
+.B{
+    background: green;
+    width: 50%;
+    height: 17.5vh;
+    float: left;
+}
+
+.C{
+    background: orange;
+    width: 25%;
+    height: 17.5vh;
+    float: left;
+}
+
+.D{
+    background: pink;
+    width: 100%;
+    height: 17.5vh;
+    float: left;
+}
+
+.E{
+    background: blue;
+    width: 25%;
+    height: 17.5vh;
+    float: left;
+}
+
+.F{
+    background: green;
+    width: 50%;
+    height: 17.5vh;
+    float: left;
+}
+
+.G{
+    background: orange;
+    width: 25%;
+    height: 17.5vh;
+    float: left;
+}
+
+footer{
+    background: red;
+    height: 10vh;
+}
+
+.clear{
+
+    clear: both;
+}
